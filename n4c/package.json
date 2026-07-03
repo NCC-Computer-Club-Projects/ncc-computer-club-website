@@ -1,7 +1,7 @@
 {
   "name": "n4c-website",
   "version": "1.0.0",
-  "description": "The main web application of Northampton Community College's Computer Club.",
+  "description": "The main web application for the Northampton Community College Computer Club.",
   "main": "server.js",
   "scripts": {
     "clean": "node assets/util/package/clean-view.js",
@@ -15,8 +15,9 @@
   "author": "Northampton Community College Computer Club",
   "license": "ISC",
   "dependencies": {
+    "@node-oauth/oauth2-server": "^5.3.0",
     "animate.css": "^4.1.1",
-    "bcrypt": "^5.1.1",
+    "bcrypt": "^6.0.0",
     "bootstrap": "^5.3.3",
     "core-js": "^3.35.1",
     "cors": "^2.8.5",
@@ -28,7 +29,6 @@
     "helmet": "^7.1.0",
     "http-errors": "^2.0.0",
     "mysql": "^2.18.1",
-    "oauth2-server": "^3.1.1",
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
     "react": "^18.2.0",
@@ -37,7 +37,6 @@
     "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
-    "@babel/cli": "^7.24.1",
     "@babel/core": "^7.24.3",
     "@babel/preset-env": "^7.24.3",
     "@babel/preset-react": "^7.24.1",
@@ -47,7 +46,7 @@
     "autoprefixer": "^10.4.19",
     "babel-loader": "^9.1.3",
     "css-loader": "^6.10.0",
-    "css-minimizer-webpack-plugin": "^6.0.0",
+    "css-minimizer-webpack-plugin": "^8.0.0",
     "favicons": "^7.2.0",
     "favicons-webpack-plugin": "^6.0.1",
     "html-webpack-plugin": "^5.6.0",
