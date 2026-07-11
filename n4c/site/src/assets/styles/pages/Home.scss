@@ -1,15 +1,23 @@
-@use '@styles/_text.scss';
-@use '@styles/_theme.scss';
+@use 'sass:map';
+@use '../text' as text;
+@use '../theme' as theme;
 
 .hero {
   height: 85rem;
-  background-image: linear-gradient(40deg, hsl(238, 98%, 60%), hsla(236, 40%, 85%, 0.2) 18%, hsla(238, 100%, 75%, 0.72)), url('@images/fun-at-primantis.jpg');
+  background-image: linear-gradient(
+      40deg,
+      hsl(238, 98%, 60%),
+      hsla(236, 40%, 85%, 0.2) 18%,
+      hsla(238, 100%, 75%, 0.72)
+    ),
+    url('@images/fun-at-primantis.jpg');
+
   background-blend-mode: multiply;
   background-position-x: center;
   background-position-y: 62%;
   background-size: cover;
   isolation: isolate;
-  color: map-get(theme.$logo-colors, 'white');
+  color: map.get(theme.$logo-colors, 'white');
 
   .custom-shape-divider-bottom-1713741397 {
     position: absolute;
@@ -37,12 +45,12 @@
     right: 5%;
     padding-right: 3rem;
     border-right: solid 3px;
-    filter: drop-shadow(map-get(theme.$logo-colors, 'blue') 0 0 1rem);
-  
+    filter: drop-shadow(map.get(theme.$logo-colors, 'blue') 0 0 1rem);
+
     h1 {
-      @include text.heading(h1);
+      @include text.heading('h1');
     }
-  
+
     span.light {
       font-weight: 200;
     }
@@ -70,7 +78,7 @@ main {
         @extend %large-text;
         height: 100%;
       }
-      
+
       .mission-img {
         box-shadow: 0px 4px 29.6px 4px hsla(233, 24%, 20%, 0.75);
         width: 32%;
@@ -105,13 +113,14 @@ main {
   section.works {
     padding-top: 10rem;
     padding-bottom: 10rem;
-    background-color: map-get(theme.$logo-colors, 'white');
+    background-color: map.get(theme.$logo-colors, 'white');
     text-align: center;
 
     .card-display {
       width: 60%;
       justify-content: space-between;
       margin: 2.5rem auto;
+
       $column-gap: 2rem;
       column-gap: $column-gap;
       row-gap: $column-gap + 2.5;

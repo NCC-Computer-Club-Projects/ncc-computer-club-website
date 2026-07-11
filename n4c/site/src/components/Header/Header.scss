@@ -1,15 +1,21 @@
-@use '@styles/_text.scss';
-@use '@styles/_theme.scss';
+@use 'sass:map';
+@use '../../assets/styles/text' as text;
+@use '../../assets/styles/theme' as theme;
 
 .header {
-  background-image: linear-gradient(90deg, hsl(206, 82%, 67%), hsl(206, 40%, 39%));;
+  background-image: linear-gradient(
+    90deg,
+    hsl(206, 82%, 67%),
+    hsl(206, 40%, 39%)
+  );
 
-  h1, a:not(.active) {
-    color: map-get(theme.$logo-colors, 'white');
+  h1,
+  a:not(.active) {
+    color: map.get(theme.$logo-colors, 'white');
   }
 
   h1 {
-    @include text.heading(h1);
+    @include text.heading('h1');
   }
 
   .nav-link {

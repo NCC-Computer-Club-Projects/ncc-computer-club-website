@@ -13,14 +13,14 @@
     gap: 1.2rem;
     padding: 0;
 
-    li.footer-link {
+    .footer-link {
       display: inline-flex;
       flex-flow: row nowrap;
       align-items: center;
       height: footer.$footer-font;
       gap: footer.$footer-gap;
 
-      & > * {
+      > * {
         display: inline;
       }
     }
@@ -28,6 +28,7 @@
 
   .footer-icon {
     $icon-size: 22px;
+
     width: $icon-size;
     height: $icon-size;
   }
