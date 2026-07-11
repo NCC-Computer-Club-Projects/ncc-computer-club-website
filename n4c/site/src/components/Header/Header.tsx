@@ -1,5 +1,5 @@
 import './Header.scss';
-import React, { useContext, useState } from 'react';
+import { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { LayoutContext } from '../../contexts';
 import KeyList from '../../assets/scripts/utils/key-list';
