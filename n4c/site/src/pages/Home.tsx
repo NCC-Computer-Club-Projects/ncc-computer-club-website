@@ -1,4 +1,3 @@
-import React from 'react';
 import '@styles/pages/Home.scss';
 import Banner from '../components/Banner/Banner';
 import missionImg from '@images/mock-images/mission.jpg'

@@ -1,5 +1,4 @@
 import './Banner.scss';
-import React from 'react';
 
 export default function Banner({header, main, action}) {
   return (

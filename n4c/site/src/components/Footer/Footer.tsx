@@ -1,5 +1,4 @@
 import './Footer.scss';
-import React from 'react';
 import logo from '@images/logos/n4c/n4c-logo.svg';
 import FooterColumn from '../FooterColumn/FooterColumn';
 

@@ -1,5 +1,5 @@
 import './FooterColumn.scss';
-import React, {useState} from 'react';
+import {useState} from 'react';
 
 function FormattedLink({ text, icon, destination}) {
   const iconContext = require.context('../../assets/images/icons', true, /\.svg$/, 'sync');
