@@ -13,27 +13,30 @@ Style Rule Order:
 11. other
 */
 
+@use 'sass:map';
 @use 'theme';
 @use 'text';
 
-// Custom scss
+// Custom SCSS
 $prefix: "mb-";
 $enable-shadows: true;
 
-// spacing
+// Spacing
 $spacer: 2rem;
 
-// color overrides
-$primary: map-get(theme.$blues, "blue-500");
-$secondary: map-get(theme.$blues, "blue-200");
+// Color overrides
+$primary: map.get(theme.$blues, "blue-500");
+$secondary: map.get(theme.$blues, "blue-200");
 
-// links
-$navbar-light-active-color: map-get(theme.$blues, 'blue-800');
+// Links
+$navbar-light-active-color: map.get(theme.$blues, "blue-800");
 
-// import bootstrap
-@import "bootstrap/scss/bootstrap";
+// Import Bootstrap
+@use "bootstrap/scss/bootstrap";
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -50,7 +53,9 @@ body {
   font-family: 'Yanone', system-ui;
 }
 
-img, svg, video {
+img,
+svg,
+video {
   display: block;
   max-width: 100%;
   max-height: 100%;
@@ -58,20 +63,20 @@ img, svg, video {
 }
 
 a:link {
-  color: map-get(theme.$blues, 'blue-300');
+  color: map.get(theme.$blues, "blue-300");
   text-decoration: none;
 }
 
 a:visited {
-  color: map-get(theme.$blues, 'blue-300');
+  color: map.get(theme.$blues, "blue-300");
 }
 
 a:hover {
-  text-shadow: map-get(theme.$logo-colors, 'white') 0 0 1rem;
+  text-shadow: map.get(theme.$logo-colors, "white") 0 0 1rem;
 }
 
 a:active {
-  color: map-get(theme.$blues, 'blue-500');
+  color: map.get(theme.$blues, "blue-500");
 }
 
 h3 {

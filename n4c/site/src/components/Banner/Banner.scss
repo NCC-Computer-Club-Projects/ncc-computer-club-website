@@ -1,22 +1,31 @@
-@use '@styles/_theme.scss';
-@use '@styles/_text.scss';
+@use 'sass:map';
+@use '../../assets/styles/text' as text;
+@use '../../assets/styles/theme' as theme;
 
 .banner {
   top: 53%;
   left: 3%;
   width: 35%;
   min-height: fit-content;
-  border-image-source: linear-gradient(90deg, hsl(245, 79%, 54%), hsl(245, 98%, 83%));
+
+  border-image-source: linear-gradient(
+    90deg,
+    hsl(245, 79%, 54%),
+    hsl(245, 98%, 83%)
+  );
+
   border-image-slice: 30;
   border-image-repeat: stretch;
   border-image-width: 1px;
+
   padding: 3rem 3rem 1rem;
   background-color: hsl(0, 2%, 10%, 0.3);
   backdrop-filter: blur(4px);
-  color: map-get(theme.$logo-colors, 'white');
+
+  color: map.get(theme.$logo-colors, 'white');
 
   h1 {
-    @include text.heading(h1);
+    @include text.heading('h1');
     margin-bottom: 3rem;
   }
 
@@ -40,9 +49,9 @@
         gap: 10px;
         margin-right: 3rem;
       }
-      
+
       h4 {
-        @include text.heading(h4);
+        @include text.heading('h4');
       }
     }
   }
