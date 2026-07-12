@@ -7,7 +7,7 @@ BK0N
 ## Major 
 Philosophy
 
-## Relevent Skills
+## Relevant Skills
 Java, C++, Blender & figma 
 
 ## Contribution

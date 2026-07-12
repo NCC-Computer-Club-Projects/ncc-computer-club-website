@@ -7,7 +7,7 @@ MB1721
 ## Major 
 Computer Science
 
-## Relevent Skills
+## Relevant Skills
 HTML, CSS, SQL, JavaScript, TypeScript, React
 
 ## Contribution

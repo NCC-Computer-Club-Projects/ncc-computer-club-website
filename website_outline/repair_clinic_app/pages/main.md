@@ -1,29 +1,38 @@
 ## Objective
-Provide answers to the question: What can the PC Repair Clinic do for me? What do we want our users to see when they first click into our app? The app's main page sets our customers' expectations, keep this in mind when thinking about the page design and presentation.
+
+Answer the question: "What can the PC Repair Clinic do for me?" What do we want users to see when they first open the app? The app's main page sets customers' expectations, so keep this in mind when designing the page's layout and presentation.
 
 ## Header and Background
-The customer will be greeted to a PC Repair Clinic logo and a fixed background-attachment of the repair clinic.
+
+Customers will be greeted with the PC Repair Clinic logo and a fixed background image of the PC Repair Clinic.
 
 ## Services
-Provide sample images or icons to indicate the clinic's specializations. Provide at least the following services:
+
+Provide sample images or icons to represent the clinic's areas of specialization. Include at least the following services:
 
 ### *Request a Repair*
-Send a fully detailed description of your repair request. This will be the main request option.
 
-### *Quick advising*
-Send a description of your device and the issue. A repair volunteer will get back to you with a repair recommendation. This is the alternative to coming into the repair clinic.
+Submit a fully detailed description of your repair request. This will be the primary option for requesting repairs.
+
+### *Quick Advising*
+
+Submit a description of your device and the issue you are experiencing. A PC Repair Clinic volunteer will respond with a repair recommendation. This serves as an alternative to visiting the PC Repair Clinic in person.
 
 ### *Schedule a Consultation Appointment*
-Schedule a consultation
+
+Schedule a consultation appointment with a PC Repair Clinic volunteer.
 
 ### *Repair Quick Tips*
-For customers who do not want the hassle of coming into the clinic or waiting for a repair. Provide general tips to common issues.
+
+For customers who do not want the hassle of coming to the clinic or waiting for a repair, provide general troubleshooting tips for common issues.
 
 ## Our Hours
-At the bottom of the page list the hours that the PC Repair Clinic is open.
+
+At the bottom of the page, display the PC Repair Clinic's operating hours.
 
 ## Status
-Shows how far along the user's repair request is.
-- Stage 1: Request recieved.
-- Stage 2: Working on the request.
-- Stage 3: Finished repair. Ready for Pickup.
+
+Show the current progress of the user's repair request.
+- Stage 1: Request received
+- Stage 2: Repair in progress
+- Stage 3: Repair completed. Ready for pickup

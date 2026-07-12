@@ -4,7 +4,7 @@ Steven Lantosh
 ## Major 
 Information Security
 
-## Relevent Skills
+## Relevant Skills
 HTML, CSS, SQL, JavaScript,
 
 ## Contribution
