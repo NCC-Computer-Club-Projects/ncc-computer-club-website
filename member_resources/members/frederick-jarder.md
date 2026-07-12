@@ -4,7 +4,7 @@ Frederick Jarder
 ## Major
 Computer Science
 
-## Relevent Skills
+## Relevant Skills
 Bash & Python
 
 ## Contribution

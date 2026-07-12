@@ -4,7 +4,7 @@ Vladimir Acosta
 ## Major 
 Information Security
 
-## Relevent Skills
+## Relevant Skills
 HTML, Node.JS, CSS, javascript, C+, Python, cloud expertise (Microsoft azure & Google cloud)
 
 ## Contribution

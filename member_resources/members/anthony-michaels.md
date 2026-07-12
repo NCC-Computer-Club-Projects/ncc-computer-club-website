@@ -4,7 +4,7 @@ Anthony Michaels
 ## Major 
 Computer Science
 
-## Relevent Skills
+## Relevant Skills
 HTML, CSS, C#, Javascript, SQL, Python
 
 ## Contribution
