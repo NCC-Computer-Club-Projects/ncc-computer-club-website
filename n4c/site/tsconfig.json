@@ -3,15 +3,14 @@
   "compilerOptions": {
     "target": "esnext", // Preserve the latest ECMAScript syntax; ideal for modern bundlers
     "lib": ["ESNext", "DOM"], // Include the latest JavaScript APIs and browser DOM types
-    "baseUrl": ".",
     "paths": {
-      "@fonts/*": ["src/assets/fonts/*"],
-      "@images/*": ["src/assets/images/*"],
-      "@scripts/*": ["src/assets/scripts/*"],
-      "@styles/*": ["src/assets/styles/*"],
-      "@components/*": ["src/components/*"],
+      "@fonts/*": ["./src/assets/fonts/*"],
+      "@images/*": ["./src/assets/images/*"],
+      "@scripts/*": ["./src/assets/scripts/*"],
+      "@styles/*": ["./src/assets/styles/*"],
+      "@components/*": ["./src/components/*"],
       "@super-assets/*": ["../../assets/*"]
-    },
+},
     "outDir": "./dist/",
     "sourceMap": true, // Output inline source maps to compiled JavaScript files
     "noImplicitAny": false, // Allow the 'any' type
