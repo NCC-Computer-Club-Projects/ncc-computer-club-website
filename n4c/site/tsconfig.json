@@ -3,6 +3,7 @@
   "compilerOptions": {
     "target": "esnext", // Preserve the latest ECMAScript syntax; ideal for modern bundlers
     "lib": ["ESNext", "DOM"], // Include the latest JavaScript APIs and browser DOM types
+    "types": ["node", "webpack-env"],
     "paths": {
       "@fonts/*": ["./src/assets/fonts/*"],
       "@images/*": ["./src/assets/images/*"],
