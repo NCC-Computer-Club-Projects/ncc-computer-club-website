@@ -41,6 +41,11 @@ const styleLoaders = [
     options: {
       implementation: require('sass'),
       sourceMap: true,
+      sassOptions: {
+        loadPaths: [
+          path.resolve(__dirname, 'src/assets/styles'),
+        ],
+      },
     },
   },
 ];

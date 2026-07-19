@@ -14,8 +14,8 @@ Style Rule Order:
 */
 
 @use 'sass:map';
-@use 'theme';
 @use 'text';
+@use 'theme';
 
 // Custom SCSS
 $prefix: "mb-";
