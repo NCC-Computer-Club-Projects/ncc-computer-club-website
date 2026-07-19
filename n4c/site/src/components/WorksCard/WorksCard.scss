@@ -1,6 +1,6 @@
 @use 'sass:map';
-@use '../../assets/styles/text' as text;
-@use '../../assets/styles/theme' as theme;
+@use 'text' as text;
+@use 'theme' as theme;
 
 $width: 25.1%;
 
