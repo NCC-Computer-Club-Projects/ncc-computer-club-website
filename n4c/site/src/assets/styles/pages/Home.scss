@@ -1,6 +1,6 @@
 @use 'sass:map';
-@use '../text' as text;
-@use '../theme' as theme;
+@use 'text' as text;
+@use 'theme' as theme;
 
 .hero {
   height: 85rem;
