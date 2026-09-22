@@ -12,7 +12,7 @@ N4C was designed to teach new web and application developers the fundamentals of
 
 React, Bootstrap, Express.js, MySQL, Apache
 
-We are using Node.js v26.4.0 and npm v11.17.0. We recommend installing the Node Version Manager (nvm) to maintain version consistency across both local machines and the web server.
+We are using Node.js v26.4.0 and npm v12.1.0. We recommend installing the Node Version Manager (nvm) to maintain version consistency across both local machines and the web server.
 
 ## What to Know
 
