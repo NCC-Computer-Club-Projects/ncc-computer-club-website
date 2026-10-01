@@ -5,35 +5,35 @@ import KeyList from './assets/scripts/utils/key-list';
 import * as PAGES from './pages';
 
 export default function App() {
-  // set home to front of the array
+  // Set home to front of the array
   let pages = Object.keys(PAGES);
   const homeIdx = pages.findIndex(page => /home/i.test(page));
   const homePage = pages[homeIdx];
   pages.splice(homeIdx, 1);
   pages.unshift(homePage);
 
-  // filter page navs in layout header
+  // Filter page navigation items in layout header
   const pageNavList = pages.filter(pageName => !/(error(404)?|index|contact)/i.test(pageName));
 
-  // create routes from PAGES modules
-  const pagesArr = Object.values(PAGES); // array of page modules
-  const routeKeys = new KeyList(); // initialize route keylist
+  // Create routes from PAGES modules
+  const pagesArr = Object.values(PAGES); // Array of page modules
+  const routeKeys = new KeyList(); // Initialize route key list
 
   const routes = (() => {
-    return pagesArr.map(PageComponent => { // access page module
+    return pagesArr.map(PageComponent => { // Access page module
       const name = PageComponent.name.toLowerCase();
-      const newKey = routeKeys.generateKey(name); // generate key
-      
+      const newKey = routeKeys.generateKey(name); // Generate key
+
       switch (name) {
         case 'error':
         case 'error404':
-          return <Route key={newKey} path="*" element={<PageComponent />}/>;
+          return <Route key={newKey} path="*" element={<PageComponent />} />;
         case 'home':
-          return <Route key={newKey} path="/" element={<PageComponent />}/>;
+          return <Route key={newKey} path="/" element={<PageComponent />} />;
         default:
-          return <Route key={newKey} path={name} element={<PageComponent />}/>;
+          return <Route key={newKey} path={name} element={<PageComponent />} />;
       }
-    }); 
+    });
   })();
 
   const router = createBrowserRouter(

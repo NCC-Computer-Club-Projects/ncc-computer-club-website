@@ -1,11 +1,14 @@
-import { Outlet } from "react-router-dom";
-import './Layout.css';
+import { Outlet } from 'react-router-dom';
+import './Layout.scss';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import { LayoutContext } from '../../contexts';
 
-export default function Layout({ pageList }) {
-  
+interface LayoutProps {
+  pageList: string[];
+}
+
+export default function Layout({ pageList }: LayoutProps) {
   return (
     <LayoutContext.Provider value={pageList}>
       <Header />

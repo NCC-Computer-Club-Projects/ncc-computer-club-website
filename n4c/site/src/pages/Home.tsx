@@ -1,33 +1,33 @@
 import '@styles/pages/Home.scss';
 import Banner from '../components/Banner/Banner';
-import missionImg from '@images/mock-images/mission.jpg'
+import missionImg from '@images/mock-images/mission.jpg';
 import WorksCard from '../components/WorksCard/WorksCard';
 
 export default function Home() {
   const cardData = [
     {
       title: 'GitHub',
-      text: 'Take a look at some of our GitHub projects.' 
+      text: 'Take a look at some of our GitHub projects.',
+      destination: 'https://github.com/NCC-Computer-Club-Projects'
     },{
       title: 'Cyber Range',
-      text: 'Practice securing vulnerabilities on our cyber range.' 
+      text: 'Practice securing vulnerabilities on our cyber range.',
+      destination: 'https://topomojo.ini.cmu.edu/'
     },{
-      title: 'Workshops',
-      text: 'Aquire new skills at our weekly workshops.' 
-    },{
-      title: 'PC Repair',
-      text: 'Laptop in need of a fix? Visit the PC Repair Clinic!' 
+      title: 'PC Repair Clinic',
+      text: 'Laptop in need of a fix? Visit the PC Repair Clinic!',
+      destination: 'mailto:pcrepairclinic@northampton.edu'
     },
   ];
 
-  const worksCards = cardData.map(card => <WorksCard key={card.title} title={card.title} text={card.text} />);
+  const worksCards = cardData.map(card => <WorksCard key={card.title} title={card.title} text={card.text} destination={card.destination} />);
 
   return (
     <div id='Home'>
       <section className='hero container-fluid position-relative p-0'>
         <Banner 
-          header='Be At Skills USA' 
-          main='Support N4C as we take on SkillsUSA! Our members will compete in web design and cyber security.' 
+          header='Be At SkillsUSA' 
+          main='Support N4C as we take on SkillsUSA! Our members will compete in web design and cyber security.'
           action={{
             link: 'https://www.skillsusa.org', 
             text: 'Check it out',
@@ -38,7 +38,7 @@ export default function Home() {
           <h1>
             April 4<br/>
             <span className='light'>Thursday<br/></span>
-            12pm - 4pm<br/>
+            12 PM — 4 PM<br/>
           </h1>
         </div>
         <div className="custom-shape-divider-bottom-1713741397">
@@ -55,7 +55,7 @@ export default function Home() {
           <div className='mission-content'>
             <p>
               <img className='mission-img rounded-circle' src={missionImg}/>
-              Students of Northampton's computer and information technology sector learn many skills in their studies, but putting those knowledge into practice can be a challenge. Our members posses the potential to create something big for themselves and the community using not only what they learn here at Northampton, but also the skills they acquire through their own research and hard work, Northampton Community College Computer Club- or N4C-  gives students a chance to put their learning into practice!
+              The students of Northampton Community College's computer and information technology sector learn many skills through their studies, but finding practical applications for those skills outside the classroom can be a struggle. Our members possess the potential to create meaningful projects for themselves and the community using not only what they learn here at Northampton Community College, but also the skills they develop through independent research and hard work. The Northampton Community College Computer Club—or N4C—gives students the opportunity to put their knowledge into practice!
             </p>
           </div>
         </section>
