@@ -1,3 +1,3 @@
 import { createContext } from "react";
 
-export const LayoutContext = createContext(null);
+export const LayoutContext = createContext<string[]>([]);

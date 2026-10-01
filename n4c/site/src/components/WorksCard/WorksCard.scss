@@ -4,6 +4,12 @@
 
 $width: 25.1%;
 
+.works-card-link {
+  display: contents;
+  text-decoration: none;
+  color: inherit;
+}
+
 .works-card {
   width: $width;
   min-width: 10em;
@@ -30,4 +36,10 @@ $width: 25.1%;
   p {
     @extend %regular-text;
   }
+}
+
+.animate__fadeIn {
+  --animate-duration: 0.8s;
+  --animate-delay: 0.1s;
+  animation-timing-function: ease-out;
 }
