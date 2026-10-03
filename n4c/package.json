@@ -43,6 +43,7 @@
     "@babel/preset-typescript": "^7.24.1",
     "@babel/register": "^7.23.7",
     "@types/node": "^26.1.1",
+    "@types/react-dom": "^19.3.0",
     "@types/webpack-env": "^1.18.8",
     "autoprefixer": "^10.4.19",
     "babel-loader": "^9.1.3",
