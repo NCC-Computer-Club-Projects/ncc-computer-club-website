@@ -1,6 +1,6 @@
 import './App.css';
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom";
-import Layout from './components/Layout/Layout';
+import Layout from './components/layout/layout';
 import KeyList from './assets/scripts/utils/key-list';
 import * as PAGES from './pages';
 

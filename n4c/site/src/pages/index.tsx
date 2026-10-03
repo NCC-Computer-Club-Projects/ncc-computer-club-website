@@ -2,7 +2,7 @@ import Contact from "./Contact";
 import Error404 from "./Error404";
 import Home from "./Home";
 import Officers from "./Officers";
-import PcRepairClinic from "./PcRepair";
+import PcRepairClinic from "./PcRepairClinic";
 import Terms from "./Terms";
 import Events from "./Events";
 import Resources from "./Resources";

@@ -1,8 +1,8 @@
-import '@styles/pages/Terms.scss';
+import '@styles/pages/terms.scss';
 
 export default function Terms() {
   return (
-    <div id="Terms">
+    <div id="terms">
       
     </div>
   );

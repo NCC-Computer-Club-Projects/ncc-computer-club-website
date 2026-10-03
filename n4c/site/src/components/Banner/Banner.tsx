@@ -1,4 +1,4 @@
-import './Banner.scss';
+import './banner.scss';
 
 export default function Banner({ header, main, action }) {
   return (
