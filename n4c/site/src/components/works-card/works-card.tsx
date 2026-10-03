@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './WorksCard.scss';
+import './works-card.scss';
 import 'animate.css';
 
 export default function WorksCard({ title, text, destination }) {

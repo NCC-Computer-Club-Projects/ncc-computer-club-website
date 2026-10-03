@@ -1,8 +1,8 @@
-import '@styles/pages/Officers.scss';
+import '@styles/pages/officers.scss';
 
 export default function Officers() {
   return (
-    <div id="Officers">
+    <div id="officers">
       
     </div>
   );

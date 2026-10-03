@@ -1,4 +1,4 @@
-import './PageLink.scss';
+import './page-link.scss';
 import { Link } from 'react-router-dom';
 import upperCaseAll from '@scripts/utils/uppercase-all.js';
 

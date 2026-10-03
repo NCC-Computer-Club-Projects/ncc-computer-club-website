@@ -1,10 +1,10 @@
-import './Header.scss';
+import './header.scss';
 import { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { LayoutContext } from '../../contexts';
 import KeyList from '../../assets/scripts/utils/key-list';
 import logo from '@images/logos/n4c/n4c-logo.svg';
-import PageLink from '../PageLink/PageLink';
+import PageLink from '../page-link/page-link';
 
 export default function Header() {
   const pages = useContext(LayoutContext);

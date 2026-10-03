@@ -1,4 +1,4 @@
-import './FooterColumn.scss';
+import './footer-column.scss';
 import { useState } from 'react';
 
 function FormattedLink({ text, icon, destination }) {

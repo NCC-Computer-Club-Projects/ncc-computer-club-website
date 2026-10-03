@@ -1,8 +1,8 @@
-import '@styles/pages/Contact.scss';
+import '@styles/pages/contact.scss';
 
 export default function Contact() {
   return (
-    <div id="Contact">
+    <div id="contact">
       
     </div>
   );

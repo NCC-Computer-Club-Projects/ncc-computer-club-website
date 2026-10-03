@@ -1,8 +1,8 @@
-import '@styles/pages/Resources.scss';
+import '@styles/pages/resources.scss';
 
 export default function Resources() {
   return (
-    <div id="Resources">
+    <div id="resources">
       
     </div>
   );
