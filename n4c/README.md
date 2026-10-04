@@ -1,9 +1,5 @@
-![N4C Logo](src/assets/images/logos/n4c/n4c-logo.svg)
+![N4C Logo](site/src/assets/images/logos/n4c/n4c-logo.svg)
 
 # Main Site
 
-This is the main website for N4C.
-
-## License
-
-This project is licensed under the terms of the [MIT License](./LICENSE.txt).
+This folder contains the main N4C website and the npm packages it uses.
