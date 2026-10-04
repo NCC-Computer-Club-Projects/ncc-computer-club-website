@@ -16,8 +16,12 @@ To ensure the project's long-term success, future members of the NCC Computer Cl
 
 ## Contributing
 
-Members who wish to contribute must be granted repository access by the NCC Computer Club Website project lead. To request access, provide your GitHub username and a brief description of how you would like to contribute. To maintain an organized development workflow, all contributors are expected to follow the project's commit and pull request standards. Please review the [Contribution Guide](CONTRIBUTING.md) and [Development Guide](DEVELOPMENT.md)before making any changes.
+Members who wish to contribute must be granted repository access by the NCC Computer Club Website project lead. To request access, provide your GitHub username and a brief description of how you would like to contribute. To maintain an organized development workflow, all contributors are expected to follow the project's commit and pull request standards. Please review the [Contribution Guide](CONTRIBUTING.md) and [Development Guide](DEVELOPMENT.md) before making any changes.
 
 ### Issues
 
 The **Issues** tab is used to propose new features, report bugs, and track development tasks. Issues may be assigned to individuals or teams. Once an issue has been claimed, no other contributor should work on it unless it has been reassigned or reopened. Only repository administrators may create and assign issues.
+
+## License
+
+The source code for this project is licensed under the MIT License.
