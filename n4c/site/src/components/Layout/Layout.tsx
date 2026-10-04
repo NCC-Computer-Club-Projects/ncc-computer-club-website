@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
-import './Layout.scss';
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
+import './layout.scss';
+import Header from '../header/header';
+import Footer from '../footer/footer';
 import { LayoutContext } from '../../contexts';
 
 interface LayoutProps {

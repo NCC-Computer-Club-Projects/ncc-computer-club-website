@@ -1,6 +1,6 @@
-import './Footer.scss';
+import './footer.scss';
 import logo from '@images/logos/n4c/n4c-logo.svg';
-import FooterColumn from '../FooterColumn/FooterColumn';
+import FooterColumn from '../footer-column/footer-column';
 
 export default function Footer() {
   // Specify icons with path relative to iconContext

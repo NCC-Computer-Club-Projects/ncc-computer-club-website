@@ -1,41 +1,27 @@
 ![N4C Logo](n4c/site/src/assets/images/logos/n4c/n4c-logo.svg)
 
-# NCC Computer Club Website 
+# NCC Computer Club Website
 
-Hello and welcome to the **Northampton Community College Computer Club website repository**! This repository is the perfect training ground for students of *computer science*, *web development and design*, *infosec*, *CIS*, *networking systems technology*, *application development*, and *systems administration* who want to build something real for themselves and the community.
+Welcome to the **Northampton Community College Computer Club Website** repository!
+
+This repository contains the source code, assets, documentation, and configuration for the NCC Computer Club Website. It serves as the central location for the project's development, maintenance, and collaboration. As a real-world learning environment, the repository provides students in computer science, web development and design, information security, computer information systems (CIS), networking systems technology, application development, and systems administration with opportunities to apply their skills in a practical setting. By contributing to the project, students help develop and maintain a resource that benefits both the community and their own professional development.
 
 ## Our Mission
 
-We, the students of Northampton Community College's computer and information technology sector, learn many skills through our studies, but we sometimes struggle to find practical applications for those skills outside the classroom. Our goal is to create a website that highlights the accomplishments of our organization, connects students, and promotes our members to potential employers and other external organizations, while also providing an ongoing project for future members.
+Our mission is to create and maintain a website that showcases our organization's accomplishments, connects students, promotes our members' skills and achievements to potential employers and external organizations, and serves as an ongoing project for future members.
 
-### Year-to-Year Goal
+The repository is maintained entirely by club members, with responsibilities spanning a variety of technical disciplines. Although each student's field of study and individual specialization may differ, collaboration is essential to the project's success. By working together, members learn from one another, broaden their technical skill sets, and contribute to the organization and its community.
 
-Members of the Computer Club should work to keep this website updated each year with club news, potential projects, competition opportunities, and more. Most importantly, members must ensure that the website remains compatible with SEO standards and browser updates, as well as maintain the domain and servers that host the website.
+To ensure the project's long-term success, future members of the NCC Computer Club are responsible for keeping the website current with club news, project opportunities, competition announcements, and other relevant content. Members should also ensure that the website remains compatible with modern browsers, follows SEO best practices, and that the domain and hosting infrastructure are properly maintained.
 
-### Learning Objective
+## Contributing
 
-The NCC Computer Club website repository is run entirely by members of the club, with various tasks requiring substantially different skill sets. This means that the full cooperation of the club's members is vital to its maintenance. Though the specifics of each student's chosen field of study will differ—and even students in the same field will have their own specialties—we hope that our members learn from each other and diversify their skill sets.
+Members who wish to contribute must be granted repository access by the NCC Computer Club Website project lead. To request access, provide your GitHub username and a brief description of how you would like to contribute. To maintain an organized development workflow, all contributors are expected to follow the project's commit and pull request standards. Please review the [Contribution Guide](CONTRIBUTING.md) and [Development Guide](DEVELOPMENT.md) before making any changes.
 
-## About This Repository
+### Issues
 
-All work done for the website will be committed to this repository. Anyone added here will be able to fork the repository, make commits, and create pull requests (PRs).
+The **Issues** tab is used to propose new features, report bugs, and track development tasks. Issues may be assigned to individuals or teams. Once an issue has been claimed, no other contributor should work on it unless it has been reassigned or reopened. Only repository administrators may create and assign issues.
 
-### Contribution
+## License
 
-Members who would like to contribute to the repository must be directly added by the NCC Computer Club website project lead. Please provide the lead with your GitHub username and a brief explanation of how you would like to contribute to the website so you can be added to the repository.
-
-To maintain an orderly project workflow, a few standards will be put in place for commits and pull requests. Please review the [contribution guide](./contribution-guide.md) as well as the [developer guide](./developer-guide.md).
-
-### Tabs
-
-GitHub repositories provide various tabs that make collaboration easier for contributors. Please use them accordingly:
-
-#### Issues
-
-We will use the Issues tab to propose new features, assign tasks, and report bugs. Individual members or teams may be assigned to each issue. Once an issue is claimed, no other member may contribute to it until it is either resolved or unassigned and reopened. Only administrators may open issues and assign them to members.
-
-#### Discussions
-
-The Discussions tab can be used by any member who has access to the repository. This is the place for general questions, concerns, and ideas. Please ensure that all discussions remain relevant and on-topic.
-
-Within the Discussions menu, there is a section for *Announcements*. Be on the lookout for administrative announcements, which include regular updates and important information. There is also a *Task Board* for assigning general to-dos to project teams, individuals, or the club as a whole.
+The source code for this project is licensed under the MIT License.

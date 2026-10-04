@@ -1,21 +1,21 @@
-import '@styles/pages/Home.scss';
-import Banner from '../components/Banner/Banner';
+import '@styles/pages/home.scss';
+import Banner from '../components/banner/banner';
 import missionImg from '@images/mock-images/mission.jpg';
-import WorksCard from '../components/WorksCard/WorksCard';
+import WorksCard from '../components/works-card/works-card';
 
 export default function Home() {
   const cardData = [
     {
       title: 'GitHub',
-      text: 'Take a look at some of our GitHub projects.',
+      text: 'Explore our GitHub projects.',
       destination: 'https://github.com/NCC-Computer-Club-Projects'
     },{
       title: 'Cyber Range',
-      text: 'Practice securing vulnerabilities on our cyber range.',
+      text: 'Practice securing vulnerabilities in our cyber range.',
       destination: 'https://topomojo.ini.cmu.edu/'
     },{
       title: 'PC Repair Clinic',
-      text: 'Laptop in need of a fix? Visit the PC Repair Clinic!',
+      text: 'Need a laptop fix? Visit the PC Repair Clinic!',
       destination: 'mailto:pcrepairclinic@northampton.edu'
     },
   ];
@@ -27,7 +27,7 @@ export default function Home() {
       <section className='hero container-fluid position-relative p-0'>
         <Banner 
           header='Be At SkillsUSA' 
-          main='Support N4C as we take on SkillsUSA! Our members will compete in web design and cyber security.'
+          main='Support N4C as we take on SkillsUSA! Our members will compete in web design and cybersecurity.'
           action={{
             link: 'https://www.skillsusa.org', 
             text: 'Check it out',
@@ -55,7 +55,7 @@ export default function Home() {
           <div className='mission-content'>
             <p>
               <img className='mission-img rounded-circle' src={missionImg}/>
-              The students of Northampton Community College's computer and information technology sector learn many skills through their studies, but finding practical applications for those skills outside the classroom can be a struggle. Our members possess the potential to create meaningful projects for themselves and the community using not only what they learn here at Northampton Community College, but also the skills they develop through independent research and hard work. The Northampton Community College Computer Club—or N4C—gives students the opportunity to put their knowledge into practice!
+              Students in Northampton Community College's Computer and Information Technology sector learn many valuable skills, but finding practical applications outside the classroom can be challenging. Our members have the potential to create meaningful projects for themselves and the community using not only what they learn at Northampton Community College, but also the skills they develop through independent research and hard work. The Northampton Community College Computer Club—or N4C—gives students the opportunity to put their knowledge into practice!
             </p>
           </div>
         </section>

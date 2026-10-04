@@ -1,8 +1,8 @@
-import '@styles/pages/Events.scss';
+import '@styles/pages/events.scss';
 
 export default function Events() {
   return (
-    <div id="Events">
+    <div id="events">
       
     </div>
   );
